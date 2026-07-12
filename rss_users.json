@@ -1,0 +1,36 @@
+[
+  {
+    "nick": "MilkdudRecords",
+    "enabled": false,
+    "pm": false,
+    "muted": {
+      "muted": false,
+      "rss24h.torrentleech.org": false
+    }
+  },
+  {
+    "nick": "",
+    "enabled": true,
+    "pm": false,
+    "muted": {
+      "muted": false,
+      "rss24h.torrentleech.org": false
+    }
+  },
+  {
+    "nick": "Test",
+    "enabled": true,
+    "pm": false,
+    "muted": {
+      "muted": false
+    }
+  },
+  {
+    "nick": "ShyGuy",
+    "enabled": true,
+    "pm": false,
+    "muted": {
+      "muted": false
+    }
+  }
+]

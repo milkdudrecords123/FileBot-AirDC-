@@ -1,0 +1,19 @@
+{
+    "bot_nick": "",
+    "bot_password": "",
+    "cert_file": "client.crt.txt",
+    "connection": {
+        "external_ip": "",
+        "mode": "active"
+    },
+    "feeds_file": "feeds.json",
+    "hub_url": "",
+    "key_file": "client.key.txt",
+    "ports": {
+        "tcp": 30000,
+        "tls_tcp": 30002,
+        "udp": 30001
+    },
+    "refresh_minutes": 10,
+    "users_file": "rss_users.json"
+}
