@@ -44,13 +44,15 @@ C:\Users\YOURPC\AppData\Roaming\DC++\Certificates
 COPY FILES MOVE TO INSTALL DIR AND RENAME
 
 you need to rename them to this client.crt.txt client.key.txt
-
+-
+make a folder name it Hangman
+-
+make a folder name it messages
 -
 make a folder name it nlohmann
 -
-
 add this file in it json.hpp
--
-Compilation command
 
+Compilation command
+-
 g++ -static-libgcc -static-libstdc++ -Wno-register -o bot.exe main.cpp release.cpp adclib_core.cpp base32.cpp tiger.cpp -lssl -lcrypto -lws2_32 -lcurl
