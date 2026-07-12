@@ -38,15 +38,19 @@ DC++ client.key and client.crt required
 you need to get them from DC++
 
 https://dcplusplus.sourceforge.io/img/screenshots/settings/settings_adcs.png
+
 C:\Users\YOURPC\AppData\Roaming\DC++\Certificates
+
 COPY FILES MOVE TO INSTALL DIR AND RENAME
 
-you need to rename them to this
-client.crt.txt client.key.txt
+you need to rename them to this client.crt.txt client.key.txt
+
+-
 make a folder name it nlohmann
+-
 
 add this file in it json.hpp
-
+-
 Compilation command
 
 g++ -static-libgcc -static-libstdc++ -Wno-register -o bot.exe main.cpp release.cpp adclib_core.cpp base32.cpp tiger.cpp -lssl -lcrypto -lws2_32 -lcurl
