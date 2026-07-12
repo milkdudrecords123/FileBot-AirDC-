@@ -55,4 +55,4 @@ add this file in it json.hpp
 
 Compilation command
 -
-g++ -static-libgcc -static-libstdc++ -Wno-register -o bot.exe main.cpp release.cpp adclib_core.cpp base32.cpp tiger.cpp -lssl -lcrypto -lws2_32 -lcurl
+g++ -static-libgcc -static-libstdc++ -Wno-register -o bot.exe main.cpp release.cpp hangman.cpp adclib_core.cpp base32.cpp tiger.cpp -lssl -lcrypto -lws2_32 -lcurl -lcomctl32 -lcomdlg32
