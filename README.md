@@ -1,10 +1,13 @@
 add these files for win 11 in the install dir
-
+-
 libssl-3-x64.dll
-
+-
 libcrypto-3-x64.dll
+-
 login configure file
+
 config.json
+-
 put in the login infomaiton USER NAME,PASSWORD and the hub address ( only works with this adcs://)
 
 "bot_nick": "USER NAME",
@@ -28,6 +31,7 @@ put in the login infomaiton USER NAME,PASSWORD and the hub address ( only works 
 },
 "refresh_minutes": 10,
 "users_file": "rss_users.json"
+-
 
 DC++ client.key and client.crt required
 
